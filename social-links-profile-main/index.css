@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap');
+body{
+    text-align: center;
+    background: var(--Offblack);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    align-content: center;
+    /* text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   */
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Darkgrey: hsl(0, 0%, 12%);
+    --Offblack: hsl(0, 0%, 8%);
+    --Green: hsl(75, 94%, 57%);
+}
+.main{
+    background: var(--Darkgrey);
+    border-radius: 13px;
+    width: 320px;
+    max-width: 90vw;
+    height: 510px;
+    position: relative;
+    filter: drop-shadow(1px 1px 1px black);
+}
+h2{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  color: var(--White);
+  margin: 2%;
+}
+h4{
+    color: var(--Green);
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  margin: 2%;
+}
+p{
+   padding-top: 2vh;
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 0.8rem;
+    color: var(--White);
+}
+.btnbox{
+    height: 240px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 3vh;
+}
+.buttons{
+    
+    display: flex;
+    flex-direction: column;
+    width: 252px;
+    height: 243px;
+    justify-content: space-around;
+   
+}
+img{
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+
+}
+.imgbox{
+    padding-top: 4vh;
+}
+.attribution{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+      color: var(--White);
+    position: fixed;
+    bottom:2vh;
+}
+.bigbox{
+    padding: 15vh;
+    min-height: fit-content;
+    min-width: fit-content;
+}
+.buttons> button{
+    width: 252px;
+    height: 42px;
+   background: var(--Grey);
+   box-shadow: none;
+   border: none;
+   border-radius: 6px;
+   color: var(--White);
+   font-weight: 500;
+   cursor: pointer;
+   filter: drop-shadow(1px 1px 1px var(--Offblack));
+  
+}
+.buttons> button:hover{
+background: var(--Green);
+color: var(--Offblack);
+}
